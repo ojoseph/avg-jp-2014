@@ -178,13 +178,19 @@ h1,h2,h3,h4{
 
 dl{
     margin-bottom: 3.3em;
+    
 }
 
 dt{
+/*
     margin-bottom: 1.3em;
     margin-top: 1.3em;
- 
-       font-family: 'mplus-2p-bold';
+*/
+    font-family: 'mplus-2p-bold';
+}
+dd{
+    color: #cccccc ;
+    font-size: 0.73em;
 }
 
 
