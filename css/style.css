@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url(../img/bg-img.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    font-family: 'meiryo', 'verdana',  'osaka','arial';
+}
+
+p{
+    line-height: 1.8;
+    font-size: 0.95em;
+}
+
+h1,h2,h3,h4{
+    color: white;
+    margin-bottom: 0.8em;
+    font-family: 'mplus-2p-regular';
+}
+
+
+
+.margin-top-1em{
+    margin-top: 1em;
+}
+
+
+.margin-top-2em{
+    margin-top: 2em;
+}
+
+.margin-top-3em{
+    margin-top: 3em;
+}
+
+
+.margin-top-4em{
+    margin-top: 4em;
+}
+
+
+.margin-top-5em{
+    margin-top: 5em;
+}
+
+.margin-top-10em{
+    margin-top: 10em;
+}
+
+
+
+.padding-bottom-1em{
+    padding-bottom: 1em;
+}
+
+
+.padding-bottom-2em{
+    padding-bottom: 2em;
+}
+
+.padding-bottom-3em{
+    padding-bottom: 3em;
+}
+
+
+.padding-bottom-4em{
+    padding-bottom: 4em;
+}
+
+
+.padding-bottom-5em{
+     padding-bottom: 5em;
+}
+/**********************/
+/* Buttons */
+/**********************/
+
+.top-bar-wrapper{
+    padding: 4em 0 0em 0;
+}
+
+.top-bar{
+
+    background: none;
+    
+}
+
+/**********************/
+/* Buttons */
+/**********************/
+.button-degica{
+    border: 1px solid white;
+    background-color: black; 
+    padding: 0;
+    margin-left: 1em;
+    margin-top: 10px;
+}
+
+.top-bar .testLinkDe a{
+    color: red; 
+    border: 1px solid red;
+    background-color: black;
+    
+}
+
+.header-spacing{
+    padding-top: 20px;
+    background: yellow; 
+    display: block;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+     background-color: black;
+    padding: 1em;
+    margin: 0px;
+        line-height: 0px; 
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+     background-color: black;
+}
+
+.top-bar-section .language li a{
+    margin-top: 20px;
+}
+
+ 
+
+/* ==========================================================================
+   FOOOTER
+   ========================================================================== */
+/**
+ * footer
+ */
+.footer li{
+    color:#999;
+    font-size: .9em;
+ 
+}
+
+.footer  {
+    /* box-shadow */
+    box-shadow:rgba(243, 220, 255, 0.54) 0px -2px 6px 3px;
+    -webkit-box-shadow:rgba(243, 220, 255, 0.54) 0px -2px 6px 3px;
+    -moz-box-shadow:rgba(243, 220, 255, 0.54) 0px -2px 6px 3px;
+
+    
+    border: 1px solid #999;
+}
+
+.copyrights{
+    color:#999;
+    font-size: .7em;
+}
+
+
+/* ==========================================================================
+   VCARD
+   ========================================================================== */
+/**
+ * CONTACT CARD
+ */
+
+.vcard li {
+    margin-bottom: 0.6em;
+     font-size: 0.8em;
+}
+
+
+/* ==========================================================================
+   Font
+   ========================================================================== */
+/**
+ * The fonts we are using for the site are below
+ */
+@font-face {
+  font-family: 'mplus-2p-light';
+  src: url("../font/mplus-2p-light.eot?") format("eot"), url("../font/mplus-2p-light.woff") format("woff"), url("../font/mplus-2p-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'mplus-2p-regular';
+  src: url("../font/mplus-2p-regular.eot?") format("eot"), url("../font/mplus-2p-regular.woff") format("woff"), url("../font/mplus-2p-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'mplus-2p-bold';
+  src: url("../font/mplus-2p-bold.eot?") format("eot"), url("../font/mplus-2p-bold.woff") format("woff"), url("../font/mplus-2p-bold.ttf") format("truetype");
+}
